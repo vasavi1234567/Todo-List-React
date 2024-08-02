@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.todo-item-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 10px;
+}
+.title {
+  color: #000000;
+  font-weight: 500;
+}
+.button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-color: #ff0b37;
+  border-radius: 5px;
+  border-style: solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 5vh;
+  margin-top: 18px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
