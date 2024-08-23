@@ -1,16 +1,44 @@
 /* Write your CSS here */
-.todo-item-details {
+.todos-container {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+.todo-input {
+  width: 30vw;
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+.checkbox-input {
+  width: 5vw;
+}
+.todo {
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: space-between;
-  padding: 10px;
+  padding-right: 10px;
 }
 .title {
+  font-family: 'Roboto';
   color: #000000;
   font-weight: 500;
+  text-align: start;
+}
+.buttons-container {
+  margin-left: 20px;
 }
 .button {
+  background-color: #ff884d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.delete-button {
   color: #ff0b37;
   background-color: #ffffff;
   border-color: #ff0b37;
